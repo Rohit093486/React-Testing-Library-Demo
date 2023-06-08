@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Login component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <span
+      class="user"
+    />
+    <form>
+      <input
+        placeholder="username"
+        type="text"
+        value=""
+      />
+      <input
+        placeholder="password"
+        type="password"
+        value=""
+      />
+      <button
+        disabled=""
+      >
+        Login
+      </button>
+      <span
+        data-testid="error"
+        style="visibility: hidden;"
+      >
+        Something went wrong!
+      </span>
+    </form>
+  </div>
+</div>
+`;
